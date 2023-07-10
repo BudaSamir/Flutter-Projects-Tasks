@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:simple_theme_mode_cubit/cubit/setting_state.dart';
-import 'package:simple_theme_mode_cubit/views/appTheme.dart';
+import 'package:simple_theme_mode_cubit/views/apptheme.dart';
 
 SettingCubit setting = SettingCubit()..onDecideThemeChange();
 

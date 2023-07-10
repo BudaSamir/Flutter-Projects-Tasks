@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_theme_mode_cubit/views/appTheme.dart';
+import 'package:simple_theme_mode_cubit/views/apptheme.dart';
 
 class SettingState {
   ThemeData themeData;
