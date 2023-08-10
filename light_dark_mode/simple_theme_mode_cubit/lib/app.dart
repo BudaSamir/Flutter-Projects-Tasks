@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       child: BlocBuilder<SettingCubit, SettingState>(
         builder: (context, state) {
           return MaterialApp(
-            title: 'Flutter Demo',
+            title: 'Simple Theme Mode Cubit',
             theme: state.themeData,
-            home: const MyHomePage(title: 'Flutter Demo Home Page'),
+            home: const MyHomePage(title: 'Simple Theme Mode Cubit'),
           );
         },
       ),
